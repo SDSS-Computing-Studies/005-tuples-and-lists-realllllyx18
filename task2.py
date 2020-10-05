@@ -25,10 +25,10 @@ Enter a word: virus
 """
 List = []
 
-List.append((input("Enter a word"))).strip()
-List.append((input("Enter a word"))).strip()
-List.append((input("Enter a word"))).strip()
-List.append((input("Enter a word"))).strip()
-List.append((input("Enter a word"))).strip()
+List.append((input("Enter a word")).strip())
+List.append((input("Enter a word")).strip())
+List.append((input("Enter a word")).strip())
+List.append((input("Enter a word")).strip())
+List.append((input("Enter a word")).strip())
 
 print(List)
