@@ -26,4 +26,9 @@ Enter a word: virus
 List = []
 
 List.append(input("Enter a word"))
+List.append(input("Enter a word"))
+List.append(input("Enter a word"))
+List.append(input("Enter a word"))
+List.append(input("Enter a word"))
+
 print(List)
