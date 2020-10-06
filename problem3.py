@@ -23,13 +23,12 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-
 List=[]
 number=input("Enter an integer:").strip()
-List.append(number)
+List.append(int(number))
 while int(number)!=-1:
     number=input("Enter an integer:").strip()
-    List.append(number)
+    List.append(int(number))
     List.sort()
     if int(number)==-1:
         break
